@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+.cakes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cakes .cake{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.cakes .cake img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.cakes .cake a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2789f9;
+    color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

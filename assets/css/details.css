@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.cake-details{
+    display: flex;
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+.cake-details img{
+    width: 50%;
+    height: 90vh;
+    border-radius: 50px 0 50px 50px;
+    -webkit-border-radius: 50px 0 50px 50px;
+    -moz-border-radius: 50px 0 50px 50px;
+    -ms-border-radius: 50px 0 50px 50px;
+    -o-border-radius: 50px 0 50px 50px;
+    object-fit: cover;
+}
+
+.cake-details .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cake-details h2{
+    margin: 0;
+}
+
+.cake-details .container ol {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80vh;
+    overflow: auto;
+}
+
+    
+@media only screen and (max-width: 800px){
+    .cake-details{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cake-details img{
+        width: 80%;
+        height: 60vh;
+        object-fit: fill;
+    }
+}
+
